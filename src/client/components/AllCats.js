@@ -24,11 +24,15 @@ export class DisconnectedAllCats extends React.Component {
 }
 
 export const mapStateToProps = state => {
-  return {};
+  return {
+    cats: state.cats
+  };
 };
 
 export const mapDispatchToProps = dispatch => {
-  return {};
+  return {
+    goGetCats: dispatch
+  };
 };
 
 // don't touch this line

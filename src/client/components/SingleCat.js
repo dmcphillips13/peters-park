@@ -12,7 +12,6 @@ import CatCard from "./CatCard";
 // don't worry about it too much
 export class DisconnectedSingleCat extends React.Component {
   render() {
-    console.log(this.props);
     return (
       <div className="single-cat">
         <h2>{this.props.name}</h2>
