@@ -46,7 +46,7 @@ describe("React-Redux MapBlanks", () => {
     });
   });
 
-  xdescribe("SingleCats", () => {
+  describe("SingleCats", () => {
     describe("mapState", () => {
       it("should SPREAD the state's .cat", () => {
         const fakeState = {
